@@ -1,5 +1,7 @@
 # Barcode Generator
+## Experimental Feature
 
+We are currently experimenting with the creation of an Electron app to provide a desktop interface for the barcode generator. This feature is still in development and may not be fully functional.
 This is a simple barcode generator that creates a PDF with 40 random barcodes. The project was developed to facilitate the generation of barcodes for various purposes, such as product labeling or inventory management.
 
 ## Requirements
