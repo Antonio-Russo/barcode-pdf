@@ -1,4 +1,7 @@
 # Generatore di Codici a Barre
+
+![Logo](screen.jpg)
+
 Questo è un semplice generatore di codici a barre che crea un PDF con 40 codici a barre randomici. Il progetto è stato sviluppato per facilitare la generazione di codici a barre per vari scopi, come l'etichettatura di prodotti o la gestione dell'inventario. Stiamo anche sperimentando la creazione di un'app Electron per migliorare l'esperienza utente.
 
 ## Requisiti

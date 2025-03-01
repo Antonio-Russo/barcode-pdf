@@ -1,4 +1,7 @@
 # Barcode Generator
+
+![Logo](screen.jpg)
+
 ## Experimental Feature
 
 We are currently experimenting with the creation of an Electron app to provide a desktop interface for the barcode generator. This feature is still in development and may not be fully functional.
