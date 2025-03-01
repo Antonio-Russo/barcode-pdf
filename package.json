@@ -1,0 +1,39 @@
+{
+  "name": "barcode",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Antonio Russo",
+  "license": "ISC",
+  "description": "Generatore Codici a Barre A4 random",
+  "build": {
+    "appId": "com.tuoNome.barcode",
+    "productName": "GeneratoreCodiciABarre",
+    "mac": {
+      "category": "public.app-category.utilities",
+      "target": "dmg"
+    },
+    "win": {
+      "target": ["nsis", "portable"]
+    },
+    "linux": {
+      "target": "AppImage"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "dependencies": {
+    "bwip-js": "^4.5.1",
+    "pdfkit": "^0.16.0"
+  },
+  "devDependencies": {
+    "electron-builder": "^24.0.0",
+    "electron": "^34.3.0"
+  }
+
+}
